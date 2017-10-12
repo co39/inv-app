@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="common/css/bootstrap.min.css">
+  <link rel="stylesheet" href="common/css/setting.css">
+  <link rel="stylesheet" href="common/css/modal.alert.css">
+  <link rel="stylesheet" href="common/css/font-awesome.min.css">
+  <link rel="stylesheet" href="common/css/bootstrap.override.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="common/js/jquery-3.2.1.min.js"></script>
+  <script src="common/js/bootstrap.min.js"></script>
+  <script src="components/loader.js"></script>
+  <script src="common/js/swipe.js"></script>
+  <script src="js/index.js"></script>
+</head>
+<body>
+  <!-- modal -->
+  <div id="id-modal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Modal title</h4>
+        </div>
+        <div class="modal-body">
+          <p>One fine body&hellip;</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <div id="contents" class="ma30">
+    <!-- サムネイル実装 -->
+    <p class="lead mt20">1)サムネイル</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-6 col-md-3">
+          <a class="thumbnail" href="./page/picDetail.html">
+            <img src="images/sample/pict1.png" alt="写真1" />
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a class="thumbnail">
+            <img src="images/sample/pict1.png" alt="写真1" />
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a class="thumbnail">
+            <img src="images/sample/pict1.png" alt="写真1" />
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a class="thumbnail">
+            <img src="images/sample/pict1.png" alt="写真1" />
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a class="thumbnail">
+            <img src="images/sample/pict1.png" alt="写真1" />
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a class="thumbnail">
+            <img src="images/sample/pict1.png" alt="写真1" />
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a class="thumbnail">
+            <img src="images/sample/pict1.png" alt="写真1" />
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a class="thumbnail">
+            <img src="images/sample/pict1.png" alt="写真1" />
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a class="thumbnail">
+            <img src="images/sample/pict1.png" alt="写真1" />
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a class="thumbnail">
+            <img src="images/sample/pict1.png" alt="写真1" />
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a class="thumbnail">
+            <img src="images/sample/pict1.png" alt="写真1" />
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a class="thumbnail">
+            <img src="images/sample/pict1.png" alt="写真1" />
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a class="thumbnail">
+            <img src="images/sample/pict1.png" alt="写真1" />
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a class="thumbnail">
+            <img src="images/sample/pict1.png" alt="写真1" />
+          </a>
+        </div>
+      </div>
+
+      <!-- ボタン -->
+      <section class="mt20">
+        <p class="lead">2)ボタン</p>
+        <p>・通常(1つ配置)<br>※基本は、default / primaryボタンを利用してください。</p>
+        <div class="row">
+          <div class="col-xs-12">
+            <input type="button" class="btn btn-default" value="default">
+            <input type="button" class="btn btn-primary" value="primary">
+            <input type="button" class="btn btn-success" value="success">
+            <input type="button" class="btn btn-info" value="info">
+            <input type="button" class="btn btn-warning" value="warning">
+            <input type="button" class="btn btn-danger" value="danger">
+          </div>
+        </div>
+      </section>
+      
+      <!-- 文字色 -->
+      <section class="mt20">
+        <p class="lead">3)文字色</p>
+        <div class="row">
+          <div class="col-xs-12">
+            <p class="text-primary">primary</p>
+            <p class="text-success">success</p>
+            <p class="text-info">info</p>
+            <p class="text-warning">warning</p>
+            <p class="text-danger">danger</p>
+          </div>
+        </div>
+      </section>
+      
+      <!-- アイコン -->
+      <section class="mt20">
+        <p class="lead">4)アイコン</p>
+        <div class="row">
+          <div class="col-xs-12">
+            <p>全てのアイコンはこちら<a href="http://fontawesome.io/icons/" target="_blank">http://fontawesome.io/icons/</a></p>
+            <p>
+              <i class="fa fa-user" aria-hidden="true"></i>
+              <span class="text-primary"><i class="fa fa-user" aria-hidden="true"></i></span>
+              <span class="text-success"><i class="fa fa-user" aria-hidden="true"></i></span>
+              <span class="text-info"><i class="fa fa-user" aria-hidden="true"></i></span>
+              <span class="text-warning"><i class="fa fa-user" aria-hidden="true"></i></span>
+              <span class="text-danger"><i class="fa fa-user" aria-hidden="true"></i></span>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <h3><i class="fa fa-user" aria-hidden="true"></i></h3>
+          </div>
+          <div class="col-xs-4">
+            <h2><i class="fa fa-user" aria-hidden="true"></i></h2>
+          </div>
+          <div class="col-xs-4">
+            <h1><i class="fa fa-user" aria-hidden="true"></i></h1>
+          </div>
+        </div>
+      </section>
+      
+      <!-- モーダル -->
+      <section class="mt20">
+        <p class="lead">5)モーダル</p>
+        <div class="row">
+          <div class="col-xs-12">
+            <a id="btn-modal" class="btn btn-default">modal表示</a>
+          </div>
+        </div>
+        <script>
+          $("#btn-modal").on('click', function() {
+            $("#id-modal").modal(); 
+          });
+        </script>
+      </section>
+      
+      <!-- フォーム -->
+      <section class="mt20">
+        <p class="lead">6)フォーム</p>
+        <div class="form-group">
+          <label for="form-input-email">Email</label>
+          <input type="email" class="form-control" id="form-input-email" placeholder="Email">
+          <label for="form-input-password">password</label>
+          <input type="password" class="form-control" id="form-input-password" placeholder="password">
+        </div>
+        <p>ラベルと水平</p>
+        <div class="form-horizontal">
+          <div class="form-group">
+            <label for="form-input-email" class="col-xs-3 control-label">Email</label>
+            <div class="col-xs-9">
+              <input type="email" class="form-control" id="form-input-email" placeholder="Email">
+            </div>
+            <label for="form-input-password" class="col-xs-3 control-label">password</label>
+            <div class="col-xs-9">
+              <input type="password" class="form-control" id="form-input-password" placeholder="password">
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="container-sm">
+      <p>コンテナ小さいVer.</p>
+      <div class="form-horizontal">
+        <div class="form-group">
+          <label for="form-input-email" class="col-xs-3 control-label">Email</label>
+          <div class="col-xs-9">
+            <input type="email" class="form-control" id="form-input-email" placeholder="Email">
+          </div>
+          <label for="form-input-password" class="col-xs-3 control-label">password</label>
+          <div class="col-xs-9">
+            <input type="password" class="form-control" id="form-input-password" placeholder="password">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
